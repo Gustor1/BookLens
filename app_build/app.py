@@ -77,33 +77,37 @@ st.session_state["metrics"] = metrics
 st.session_state["recommender"] = recommender
 
 # ─── Déclaration des Pages (st.navigation) ─────────────────────
+def resolve_page_path(rel_path: str) -> str:
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    return os.path.join(base_dir, rel_path)
+
 pages_config = {
     t("nav.section_main", "Principal"): [
-        st.Page("pages/0_🏠_Accueil.py", title=t("nav.home", "Accueil"), icon="🏠", default=True),
-        st.Page("pages/20_🧭_Explorer.py", title=t("nav.explore", "Explorer"), icon="🧭"),
-        st.Page("pages/10_📚_Bibliothèque_de_recherche.py", title=t("nav.library", "Ma Bibliothèque"), icon="📚"),
-        st.Page("pages/6_🤖_Agent_IA.py", title=t("nav.agent", "Assistant IA"), icon="🤖"),
+        st.Page(resolve_page_path("pages/0_🏠_Accueil.py"), title=t("nav.home", "Accueil"), icon="🏠", default=True),
+        st.Page(resolve_page_path("pages/20_🧭_Explorer.py"), title=t("nav.explore", "Explorer"), icon="🧭"),
+        st.Page(resolve_page_path("pages/10_📚_Bibliothèque_de_recherche.py"), title=t("nav.library", "Ma Bibliothèque"), icon="📚"),
+        st.Page(resolve_page_path("pages/6_🤖_Agent_IA.py"), title=t("nav.agent", "Assistant IA"), icon="🤖"),
     ],
     t("nav.section_discover", "Découvrir"): [
-        st.Page("pages/1_🔍_Livres.py", title=t("nav.books", "Livres"), icon="📖"),
-        st.Page("pages/2_🎬_Films.py", title=t("nav.movies", "Films"), icon="🎬"),
-        st.Page("pages/3_🎮_Jeux_Video.py", title=t("nav.games", "Jeux Vidéo"), icon="🎮"),
-        st.Page("pages/8_🎓_Recherche_Academique.py", title=t("nav.academic", "Recherche Académique"), icon="🎓"),
+        st.Page(resolve_page_path("pages/1_🔍_Livres.py"), title=t("nav.books", "Livres"), icon="📖"),
+        st.Page(resolve_page_path("pages/2_🎬_Films.py"), title=t("nav.movies", "Films"), icon="🎬"),
+        st.Page(resolve_page_path("pages/3_🎮_Jeux_Video.py"), title=t("nav.games", "Jeux Vidéo"), icon="🎮"),
+        st.Page(resolve_page_path("pages/8_🎓_Recherche_Academique.py"), title=t("nav.academic", "Recherche Académique"), icon="🎓"),
     ],
     t("nav.section_lab", "Lab"): [
-        st.Page("pages/21_🧪_MediaLens_Lab.py", title=t("nav.lab_hub", "Lab Hub"), icon="🧪"),
-        st.Page("pages/9_👤_Mon_Profil.py", title=t("nav.insights", "Insights & Profil"), icon="👤"),
-        st.Page("pages/12_🧱_Architecture.py", title=t("nav.architecture", "Architecture & APIs"), icon="🧱"),
-        st.Page("pages/13_⚙️_Dashboard_Technique.py", title=t("nav.tech_dashboard", "Dashboard Technique"), icon="⚙️"),
-        st.Page("pages/16_🧪_AI_Evaluation_Lab.py", title=t("nav.eval_lab", "AI Evaluation Lab"), icon="🧪"),
-        st.Page("pages/17_🔄_MLOps_et_Modèles.py", title=t("nav.mlops", "MLOps & Modèles"), icon="🔄"),
-        st.Page("pages/15_🕸️_Graphe.py", title=t("nav.graph", "Graphe Relationnel"), icon="🕸️"),
-        st.Page("pages/19_🎨_Design_System.py", title=t("nav.design_system", "Design System"), icon="🎨"),
+        st.Page(resolve_page_path("pages/21_🧪_MediaLens_Lab.py"), title=t("nav.lab_hub", "Lab Hub"), icon="🧪"),
+        st.Page(resolve_page_path("pages/9_👤_Mon_Profil.py"), title=t("nav.insights", "Insights & Profil"), icon="👤"),
+        st.Page(resolve_page_path("pages/12_🧱_Architecture.py"), title=t("nav.architecture", "Architecture & APIs"), icon="🧱"),
+        st.Page(resolve_page_path("pages/13_⚙️_Dashboard_Technique.py"), title=t("nav.tech_dashboard", "Dashboard Technique"), icon="⚙️"),
+        st.Page(resolve_page_path("pages/16_🧪_AI_Evaluation_Lab.py"), title=t("nav.eval_lab", "AI Evaluation Lab"), icon="🧪"),
+        st.Page(resolve_page_path("pages/17_🔄_MLOps_et_Modèles.py"), title=t("nav.mlops", "MLOps & Modèles"), icon="🔄"),
+        st.Page(resolve_page_path("pages/15_🕸️_Graphe.py"), title=t("nav.graph", "Graphe Relationnel"), icon="🕸️"),
+        st.Page(resolve_page_path("pages/19_🎨_Design_System.py"), title=t("nav.design_system", "Design System"), icon="🎨"),
     ],
     t("nav.section_plus", "Plus"): [
-        st.Page("pages/11_🔀_Comparer.py", title=t("nav.compare", "Comparer"), icon="🔀"),
-        st.Page("pages/14_ℹ️_A_Propos.py", title=t("nav.about", "À Propos"), icon="ℹ️"),
-        st.Page("pages/18_🔒_Confidentialité_&_Sécurité.py", title=t("nav.security", "Confidentialité & Sécurité"), icon="🔒"),
+        st.Page(resolve_page_path("pages/11_🔀_Comparer.py"), title=t("nav.compare", "Comparer"), icon="🔀"),
+        st.Page(resolve_page_path("pages/14_ℹ️_A_Propos.py"), title=t("nav.about", "À Propos"), icon="ℹ️"),
+        st.Page(resolve_page_path("pages/18_🔒_Confidentialité_&_Sécurité.py"), title=t("nav.security", "Confidentialité & Sécurité"), icon="🔒"),
     ]
 }
 
