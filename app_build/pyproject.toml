@@ -1,0 +1,9 @@
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-p no:capture -v"
+testpaths = [
+    "tests",
+]
+pythonpath = [
+    "."
+]

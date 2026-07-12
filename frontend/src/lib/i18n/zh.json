@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "home": "首页",
+    "explore": "探索",
+    "assistant": "AI助手",
+    "library": "图书馆",
+    "settings": "设置",
+    "more": "更多",
+    "section_main": "主要",
+    "section_discover": "发现"
+  },
+  "home": {
+    "hero_title": "跨媒体探索故事",
+    "hero_subtitle": "用于发现互联书籍、电影和电子游戏的文化AI平台。",
+    "search_placeholder": "搜索书籍、电影、游戏...",
+    "cta_explore": "探索故事",
+    "cta_assistant": "咨询AI助手",
+    "featured": "特别推荐",
+    "why_recommended": "为什么推荐？",
+    "random_surprise": "惊喜推荐！",
+    "surprise_loading": "正在寻找精品...",
+    "surprise_btn": "带给我惊喜",
+    "rails": {
+      "discover": "今晚推荐",
+      "ecofiction": "生态小说与反乌托邦",
+      "crossmedia": "从书籍到银幕和游戏",
+      "recommendations": "根据您的喜好"
+    }
+  },
+  "explore": {
+    "title": "沉浸式目录",
+    "filter_all": "全部",
+    "filter_books": "书籍",
+    "filter_movies": "电影",
+    "filter_games": "电子游戏",
+    "search_media_placeholder": "搜索目录...",
+    "sort_rating": "评分",
+    "sort_year": "年份",
+    "filters": "筛选",
+    "genre": "流派",
+    "clear_filters": "重置",
+    "empty_state": "未找到相关内容",
+    "empty_desc": "请尝试修改筛选条件或搜索关键词。"
+  },
+  "media": {
+    "rating_source": "来源",
+    "synopsis": "剧情简介",
+    "genres": "流派",
+    "creator": "创作者 / 作者",
+    "publisher": "出版商 / 工作室",
+    "year": "发行年份",
+    "feedback_like": "喜欢",
+    "feedback_dislike": "不喜欢",
+    "recs_title": "相似作品与改编",
+    "explanation_title": "为什么推荐此作品？",
+    "explanation_collab": "相似读者兴趣",
+    "explanation_content": "主题和作者关联度",
+    "explanation_hybrid": "混合关联度得分"
+  },
+  "assistant": {
+    "title": "文化AI助手",
+    "placeholder": "提问关于主题、跨媒体联系的问题...",
+    "mode_discover": "发现模式",
+    "mode_academic": "学术研究",
+    "mode_docs": "我的文档",
+    "suggest_1": "《沙丘》（小说）与其游戏改编版有哪些共同主题？",
+    "suggest_2": "推荐一些类似于厄休拉·勒古恩作品的生态女性主义随笔。",
+    "suggest_3": "哪些电影与《盗梦空间》具有类似的叙事风格？",
+    "api_offline": "AI助手服务离线。演示模式已激活。",
+    "api_offline_desc": "以下回答是本地模拟的。",
+    "sources": "来源和引用"
+  },
+  "library": {
+    "title": "我的图书馆",
+    "tab_favorites": "收藏夹",
+    "tab_documents": "RAG 文档",
+    "favorites_empty": "暂无收藏",
+    "favorites_desc": "从目录中添加媒体，以便在此处找到它们。",
+    "documents_empty": "未索引任何文档",
+    "documents_desc": "导入学术PDF文件以供RAG（检索增强生成）使用。",
+    "upload_btn": "导入PDF",
+    "backend_required": "导入文档需要连接到FastAPI服务器。"
+  },
+  "settings": {
+    "title": "平台设置",
+    "lang_label": "界面语言",
+    "theme_label": "视觉主题",
+    "theme_dark": "深石板色 (暗色)",
+    "reduced_motion": "减少动画",
+    "reduced_motion_desc": "禁用页面过渡和悬停效果以提升性能。",
+    "privacy": "隐私与安全",
+    "privacy_desc": "MediaLens V2在本地运行。API密钥安全地存储在后端服务器上。",
+    "reset_prefs": "重置首选项"
+  },
+  "common": {
+    "demo_mode": "演示模式",
+    "loading": "加载中...",
+    "error_title": "发生错误",
+    "retry": "重试",
+    "close": "关闭"
+  }
+}

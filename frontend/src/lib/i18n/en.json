@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "home": "Home",
+    "explore": "Explore",
+    "assistant": "Assistant",
+    "library": "Library",
+    "settings": "Settings",
+    "more": "More",
+    "section_main": "Main",
+    "section_discover": "Discover"
+  },
+  "home": {
+    "hero_title": "Explore Stories Across Media",
+    "hero_subtitle": "The cultural AI platform to discover connected books, movies, and video games.",
+    "search_placeholder": "Search for a book, movie, game...",
+    "cta_explore": "Explore Stories",
+    "cta_assistant": "Ask Assistant",
+    "featured": "Featured",
+    "why_recommended": "Why this choice?",
+    "random_surprise": "Surprise Me!",
+    "surprise_loading": "Finding a gem...",
+    "surprise_btn": "Surprise me",
+    "rails": {
+      "discover": "Discover Tonight",
+      "ecofiction": "Ecofictions & Dystopias",
+      "crossmedia": "From Book to Screen & Game",
+      "recommendations": "Based on your tastes"
+    }
+  },
+  "explore": {
+    "title": "Immersive Catalog",
+    "filter_all": "All",
+    "filter_books": "Books",
+    "filter_movies": "Movies",
+    "filter_games": "Video Games",
+    "search_media_placeholder": "Search the catalog...",
+    "sort_rating": "Rating",
+    "sort_year": "Year",
+    "filters": "Filters",
+    "genre": "Genre",
+    "clear_filters": "Reset",
+    "empty_state": "No media found",
+    "empty_desc": "Try modifying your filters or search."
+  },
+  "media": {
+    "rating_source": "Source",
+    "synopsis": "Synopsis",
+    "genres": "Genres",
+    "creator": "Creator / Author",
+    "publisher": "Publisher / Studio",
+    "year": "Release Year",
+    "feedback_like": "Like",
+    "feedback_dislike": "Dislike",
+    "recs_title": "Similar Works & Adaptations",
+    "explanation_title": "Why this recommendation?",
+    "explanation_collab": "Similar Reader Interest",
+    "explanation_content": "Thematic & Author Closeness",
+    "explanation_hybrid": "Hybrid Affinity Score"
+  },
+  "assistant": {
+    "title": "Cultural AI Assistant",
+    "placeholder": "Ask a question about themes, cross-media links...",
+    "mode_discover": "Discovery",
+    "mode_academic": "Academic Research",
+    "mode_docs": "My Documents",
+    "suggest_1": "What are the common themes between Dune (book) and its game adaptation?",
+    "suggest_2": "Suggest ecofeminist essays similar to books by Ursula Le Guin.",
+    "suggest_3": "Which movies share Inception's storytelling style?",
+    "api_offline": "AI Assistant API is offline. Demo mode active.",
+    "api_offline_desc": "The response below is simulated locally.",
+    "sources": "Sources and Citations"
+  },
+  "library": {
+    "title": "My Library",
+    "tab_favorites": "Favorites",
+    "tab_documents": "RAG Documents",
+    "favorites_empty": "No favorites yet",
+    "favorites_desc": "Add media from the catalog to find them here.",
+    "documents_empty": "No documents indexed",
+    "documents_desc": "Import academic PDF files for RAG.",
+    "upload_btn": "Import PDF",
+    "backend_required": "FastAPI server connection required to import documents."
+  },
+  "settings": {
+    "title": "Platform Settings",
+    "lang_label": "Interface Language",
+    "theme_label": "Visual Theme",
+    "theme_dark": "Deep Slate (Dark)",
+    "reduced_motion": "Reduce animations",
+    "reduced_motion_desc": "Disables page transitions and hover effects for better performance.",
+    "privacy": "Privacy & Security",
+    "privacy_desc": "MediaLens V2 runs locally. API keys are safely stored on the backend server.",
+    "reset_prefs": "Reset preferences"
+  },
+  "common": {
+    "demo_mode": "Demo Mode",
+    "loading": "Loading...",
+    "error_title": "An error occurred",
+    "retry": "Retry",
+    "close": "Close"
+  }
+}

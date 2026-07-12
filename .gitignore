@@ -1,0 +1,34 @@
+# Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+env/
+ENV/
+*.pkl
+
+# Local database caches & user uploads
+app_build/data/chroma_db/
+app_build/data/uploads/
+app_build/data/cache/
+app_build/logs/
+backend_api/data/
+backend_api/logs/
+
+# IDE configurations
+.vscode/
+.idea/
+.DS_Store
+thumbs.db
+Desktop.ini

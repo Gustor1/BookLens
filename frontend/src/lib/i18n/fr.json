@@ -1,0 +1,102 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "explore": "Explorer",
+    "assistant": "Assistant",
+    "library": "Bibliothèque",
+    "settings": "Réglages",
+    "more": "Plus",
+    "section_main": "Principal",
+    "section_discover": "Découvrir"
+  },
+  "home": {
+    "hero_title": "Explorez des histoires à travers les médias",
+    "hero_subtitle": "La plateforme culturelle IA pour découvrir des livres, films et jeux vidéo connectés.",
+    "search_placeholder": "Rechercher un livre, un film, un jeu...",
+    "cta_explore": "Explorer les histoires",
+    "cta_assistant": "Demander à l'assistant",
+    "featured": "Mis en avant",
+    "why_recommended": "Pourquoi ce choix ?",
+    "random_surprise": "Surprenez-moi !",
+    "surprise_loading": "Recherche d'une pépite...",
+    "surprise_btn": "Surprends-moi",
+    "rails": {
+      "discover": "À découvrir ce soir",
+      "ecofiction": "Écofictions & Dystopies",
+      "crossmedia": "Du livre au film et au jeu",
+      "recommendations": "Selon vos goûts"
+    }
+  },
+  "explore": {
+    "title": "Catalogue Immersif",
+    "filter_all": "Tous",
+    "filter_books": "Livres",
+    "filter_movies": "Films",
+    "filter_games": "Jeux Vidéo",
+    "search_media_placeholder": "Rechercher dans le catalogue...",
+    "sort_rating": "Note",
+    "sort_year": "Année",
+    "filters": "Filtres",
+    "genre": "Genre",
+    "clear_filters": "Réinitialiser",
+    "empty_state": "Aucun média trouvé",
+    "empty_desc": "Essayez de modifier vos filtres ou votre recherche."
+  },
+  "media": {
+    "rating_source": "Source",
+    "synopsis": "Synopsis",
+    "genres": "Genres",
+    "creator": "Créateur / Auteur",
+    "publisher": "Éditeur / Studio",
+    "year": "Année de sortie",
+    "feedback_like": "J'aime",
+    "feedback_dislike": "Je n'aime pas",
+    "recs_title": "Œuvres similaires & Adaptations",
+    "explanation_title": "Pourquoi cette recommandation ?",
+    "explanation_collab": "Intérêt des lecteurs similaires",
+    "explanation_content": "Proximité thématique & Auteur",
+    "explanation_hybrid": "Score d'affinité hybride"
+  },
+  "assistant": {
+    "title": "Assistant Culturel IA",
+    "placeholder": "Posez une question sur les thèmes, les liaisons cross-média...",
+    "mode_discover": "Découverte",
+    "mode_academic": "Recherche académique",
+    "mode_docs": "Mes documents",
+    "suggest_1": "Quels sont les thèmes communs entre Dune (livre) et son adaptation en jeu ?",
+    "suggest_2": "Propose-moi des essais écoféministes similaires aux livres d'Ursula Le Guin.",
+    "suggest_3": "Quels films partagent le style de narration d'Inception ?",
+    "api_offline": "L'API de l'assistant IA est hors ligne. Mode démo actif.",
+    "api_offline_desc": "La réponse ci-dessous est simulée localement.",
+    "sources": "Sources et Citations"
+  },
+  "library": {
+    "title": "Ma Bibliothèque",
+    "tab_favorites": "Favoris",
+    "tab_documents": "Documents RAG",
+    "favorites_empty": "Aucun favori pour le moment",
+    "favorites_desc": "Ajoutez des médias depuis le catalogue pour les retrouver ici.",
+    "documents_empty": "Aucun document indexé",
+    "documents_desc": "Importez des fichiers PDF académiques pour le RAG.",
+    "upload_btn": "Importer un PDF",
+    "backend_required": "Connexion au serveur FastAPI requise pour importer des documents."
+  },
+  "settings": {
+    "title": "Réglages de la plateforme",
+    "lang_label": "Langue de l'interface",
+    "theme_label": "Thème visuel",
+    "theme_dark": "Ardoise Profonde (Sombre)",
+    "reduced_motion": "Réduire les animations",
+    "reduced_motion_desc": "Désactive les transitions et effets de survol pour plus de performance.",
+    "privacy": "Confidentialité & Sécurité",
+    "privacy_desc": "MediaLens V2 fonctionne localement. Les clés API sont stockées sur le serveur backend.",
+    "reset_prefs": "Réinitialiser les préférences"
+  },
+  "common": {
+    "demo_mode": "Mode Démo",
+    "loading": "Chargement...",
+    "error_title": "Une erreur est survenue",
+    "retry": "Réessayer",
+    "close": "Fermer"
+  }
+}
